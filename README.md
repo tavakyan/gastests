@@ -1,9 +1,9 @@
 # gastests
-Google App Scripts Test Runner
+Google App Scripts Test Runner - Lightweight test utilty for GAS projects
 
 ## Installing
 
-Either copy contents of Test.gs file into your project or create a GAS library and import it.  
+First install UnderscoreGS GAS library.  Then either copy contents of Test.gs file into your project or into a new GAS library to be imported into your project.  
 
 ## Creating and running tests
 
