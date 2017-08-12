@@ -1,15 +1,15 @@
 # gastests
 Google App Scripts Test Runner
 
-1. Write the unit test function.  
+1. First write the unit test function which is any function that begins with "test"
 
 ```javascript
-// Note: Unit test function name must begin with "test" and return truthy condition for a pass.
+// Test functions should also true for a pass or false for a fail.
 function testSquare() {
   const input = 10
   const expectedOutput = 100
-  const result = expectedOutput === square(input)
-  return result
+  const actualOutput = square(input)
+  return expectedOutput === actualOutput
 }
 ```
   
