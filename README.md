@@ -27,4 +27,4 @@ function square(input) {
 }
 ```
   
-3. Execute runAll()
+3. Execute runTests()
